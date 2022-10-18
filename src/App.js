@@ -87,6 +87,20 @@ function App() {
     return dimensions;
   };
 
+  const getWorkplaceTaskDescriptions = () => {
+    let taskDescriptions = [];
+    let i = 1;
+    let translation = 'places-worked.' + activeWorkplace + '.task' + i;
+
+    while(t(translation) !== translation) {
+      taskDescriptions.push(<li key={'taskDescription' + i}>{t(translation)}</li>)
+      i++;
+      translation = 'places-worked.' + activeWorkplace + '.task' + i;
+    }
+
+    return taskDescriptions;
+  };
+
   const { width } = useContainerDimensions(componentRef);
   const {t, i18n} = useTranslation('common');
 
@@ -198,15 +212,7 @@ function App() {
           </WorkPlaceHeader>
           <WorkPlaceTaskDescription>
             <ul>
-              <li>
-                {t('places-worked.' + activeWorkplace + '.task1')}
-              </li>
-              <li>
-                {t('places-worked.' + activeWorkplace + '.task2')}
-              </li>
-              <li>
-                {t('places-worked.' + activeWorkplace + '.task3')}
-              </li>
+              {getWorkplaceTaskDescriptions()}
             </ul>
           </WorkPlaceTaskDescription>
         </PlacesIWorkedContainer>
