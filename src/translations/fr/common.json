@@ -2,8 +2,7 @@
     "about": {
         "whoami": "WHOAMI",
         "my-name-is": "Mon nom est",
-        "my-description": ", je suis un développeur à la recherche de nouveaux défis et étudiant en informatique à l'Université de Sherbrooke. Je serai diplômé fin avril 2022.",
-        "my-interests": "Je m'intéresse aux jeux vidéo, à la synthèse d'images, à la cybersécurité, à l'IA et à l'apprentissage automatique."
+        "my-description": ", Je suis un développeur de jeux vidéo avec 2 ans d'expérience, j'ai gradué en informatique à l'Université de Sherbrooke en avril 2022. Je joue et développe des jeux sur mon temps libre. Je suis à la recherche de nouveaux défis dans l'industrie du jeu vidéo."
     },
     "contact": {
         "contact-me": "ME CONTACTER",
@@ -12,34 +11,40 @@
     "home": {
         "hello-world": "Hello World!",
         "im": "Je suis",
-        "developer": "un développeur." 
+        "developer": "un développeur de jeux vidéo." 
     },
     "places-worked": {
         "places-ive-worked": "ENDROITS OÙ J'AI TRAVAILLÉ",
+        "gameloft": {
+            "name": "Gameloft",
+            "header": "Développeur Back End | Montréal (QC) | Mai 2022 - Présent",
+            "task1": "Développer, maintenir et déployer des microservices de jeux faits en Python utilisés pour l'authentification, les interactions avec les réseaux sociaux, la messagerie, les lobbies, etc… dans un environnement Agile Scrum.",
+            "task2": "Optimiser et garantir une haute disponibilité et résilience aux défaillances, car ces microservices doivent gérer 10 milliards de requêtes par jour provenant de plus de 20 millions de joueurs actifs dans plus de 100 jeux.",
+            "task3": "Documenter les nouvelles fonctionnalités et améliorations."
+        },
         "genetec": {
             "name": "Genetec",
             "header": "Développeur logiciel (stage) | Sherbrooke (QC) | Mai 2021 – Août 2021",
-            "task1": "Développer avec C#, .NET et WPF un plugin permettant d’utiliser dans un logiciel de surveillance de bâtiments des cadenas et clefs intelligents et d’y configurer des contrôles d’accès et monitorer leurs activités.",
-            "task2": "Écrire des tests unitaires avec les frameworks NUnit et SpecFlow.",
-            "task3": "Analyser des problématiques en équipe dans un environnement Agile Kanban."
+            "task1": "Développer avec C#, .NET et WPF un plugin permettant d’utiliser dans un logiciel de surveillance de bâtiments des cadenas intelligents et d’y gérer des contrôles d’accès dans un environnement Agile Kanban.",
+            "task2": "Écrire des tests unitaires avec les frameworks NUnit et SpecFlow."
         },
         "novom": {
             "name": "Novom Interactive",
             "header": "Développeur Full Stack (stage) | Magog (QC) | Septembre 2020 – Décembre 2020",
-            "task1": "Implanter avec ReactJS et NodeJS de nouvelles fonctionnalités dans une application web de vidéoconférence dont un menu de configuration des périphériques d’entrée et de sortie afin de permettre à des milliers d’utilisateurs de se préparer avant leur conférence.",
-            "task2": "Écrire des tests unitaires avec le framework Jest.",
-            "task3": "Planifier des sprints en équipe dans un environnement Agile Scrum."
+            "task1": "Implanter avec React et NodeJS de nouvelles fonctionnalités dans une application web de vidéoconférence dans un environnement Agile Scrum dont un menu de configuration des périphériques d’entrée et de sortie.",
+            "task2": "Écrire des tests unitaires avec le framework Jest."
         },
         "nba": {
             "name": "NB Automation",
-            "header": "Développeur Full Stack | Granby (QC) | Mai 2019 – Août 2019",
+            "header": "Développeur Full Stack (stage) | Granby (QC) | Mai 2019 – Août 2019",
             "task1": "Ajouter et mettre à jour des formulaires dans un logiciel CRUD en utilisant C#, .NET et WPF servant à faire du contrôle de qualité sur des produits fabriqués en manufacture.",
-            "task2": "Améliorer la conception d’une base de données SQL.",
-            "task3": "Mettre à jour et corriger des bugs afin d’améliorer la performance et stabilité."
+            "task2": "Améliorer la conception d’une base de données SQL."
         }
     },
     "projects": {
         "my-projects": "MES PROJETS",
+        "elemensions-description": "Dans ElemEnsions, vous incarnez Guerna la gobeline aventurière à la recherche d'un nouveau trésor. Afin de surmonter les nombreux obstacles des ruines, vous avez à votre disposition le pouvoir du pendentif de Portalite, artéfact trouvé lors d'une aventure passée, qui permet de changer d'une dimension élémentaire à une autre. Chaque élément a ses propriétés uniques:  Feu, Air, Eau, Terre.",
+        "back-to-the-party-description": "Back to the Party est une expérience coopérative à 2 joueurs. Un joueur se trouve dans le passé et doit gérer un party à son appartement. Il doit satisfaire les besoins de ses invités afin de devenir leur ami. En satisfaisant ces besoins, on obtient les réponses pour l’examen futur. L'autre joueur se trouve dans le futur et doit répondre aux questions d'examen avec les réponses obtenues. Il doit aussi fournir des ressources au joueur du passé via un portail quantique.",
         "purrfect-escape-description": "Dans Purrfect Escape, nous jouons le rôle d'un chat désireux de sortir pour satisfaire ses instincts de chasseur. Cependant, celui-ci est prisonnier de sa maison et ses humains ne le laissent pas sortir. Pourra-t-il trouver moyen de s'échapper? Fait avec Unity et C#.",
         "worfo-description": "World of Rune Fantasy Online est un jeu MMORPG en monde ouvert. Partez à l'aventure seul ou entre amis. Recherchez, combattez, explorez, améliorez vos compétences. Jouez à votre façon et façonnez votre destin! Fait avec Unity, C#, MySQL et Ink.",
         "centre-description": "Le Centre d'Entraide La Boussole est un centre d'aide aux toxicomanes, hommes battus et couples. Fait avec PHP, Laravel et MySQL.",
