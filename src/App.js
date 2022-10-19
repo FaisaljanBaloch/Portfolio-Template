@@ -27,6 +27,8 @@ import {
   ProfilePictureContainer,
   Project,
   ProjectDescription,
+  ProjectDownloadButton,
+  ProjectHeader,
   ProjectImage,
   Projects,
   ProjectsSection,
@@ -247,27 +249,42 @@ function App() {
         </SectionTitle>
         <Projects data-aos="fade-up">
           <Project>
-            <ProjectTitle id="elemensions">
-              Elemensions
-            </ProjectTitle>
+            <ProjectHeader>
+              <ProjectTitle id="elemensions">
+                Elemensions
+              </ProjectTitle>
+              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/ElemEnsions.zip')}>
+                {t('projects.download')}
+              </ProjectDownloadButton>
+            </ProjectHeader>
             <ProjectDescription>
               {t('projects.elemensions-description')}
             </ProjectDescription>
             <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/Ay9BNReulN8" allow="fullscreen;"/>
           </Project>
           <Project>
-            <ProjectTitle id="back-to-the-party">
-              Back to the Party
-            </ProjectTitle>
+            <ProjectHeader>
+              <ProjectTitle id="back-to-the-party">
+                Back to the Party
+              </ProjectTitle>
+              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/BackToTheParty.zip')}>
+                {t('projects.download')}
+              </ProjectDownloadButton>
+            </ProjectHeader>
             <ProjectDescription>
               {t('projects.back-to-the-party-description')}
             </ProjectDescription>
             <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/ZI-1IKNtqzc" allow="fullscreen;"/>
           </Project>
           <Project>
-            <ProjectTitle id="purrfect-escape">
-              Purrfect Escape
-            </ProjectTitle>
+            <ProjectHeader>
+              <ProjectTitle id="purrfect-escape">
+                Purrfect Escape
+              </ProjectTitle>
+              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/PurrfectEscape.zip')}>
+                {t('projects.download')}
+              </ProjectDownloadButton>
+            </ProjectHeader>
             <ProjectDescription>
               {t('projects.purrfect-escape-description')}
             </ProjectDescription>

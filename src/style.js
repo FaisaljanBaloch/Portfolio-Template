@@ -221,6 +221,28 @@ export const ProjectDescription = styled.p`
     font-size: 20px;
 `;
 
+export const ProjectDownloadButton = styled.button`
+    background-color: #E31B6D;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 15px;
+
+    &:hover {
+        background: #720D37;
+    }
+`;
+
+export const ProjectHeader = styled.div`
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+`;
+
 export const ProjectImage = styled.img`
     width: 100%;
 `;
