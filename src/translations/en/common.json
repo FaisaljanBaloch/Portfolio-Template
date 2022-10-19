@@ -2,8 +2,7 @@
     "about": {
         "whoami": "WHOAMI",
         "my-name-is": "My name is",
-        "my-description": ", I'm a developer seeking for new challenges and a student in Computer Science from Université de Sherbrooke. I will graduate at the end of April 2022.",
-        "my-interests": "I'm interested in Video Games, Image Synthesis, Cyber Security, AI and Machine Learning."
+        "my-description": ", I'm a game developer with 2 years of experience, I graduated in Computer Science at the Université de Sherbrooke in April 2022. I play and develop games on my free time. I'm looking for new challenges in the game industry."
     },
     "contact": {
         "contact-me": "CONTACT ME",
@@ -12,34 +11,40 @@
     "home": {
         "hello-world": "Hello World!",
         "im": "I'm",
-        "developer": "a developer." 
+        "developer": "a game developer." 
     },
     "places-worked": {
         "places-ive-worked": "PLACES I'VE WORKED",
+        "gameloft": {
+            "name": "Gameloft",
+            "header": "Back End Developer | Montreal (QC) | May 2022 - Present",
+            "task1": "Developed, maintained, and deployed Python game microservices that are used for authentication, interactions with social networks, messaging, lobbies, etc… in an Agile Scrum environment.",
+            "task2": "Optimized and ensured high availability and resilience to failure as these microservices need to handle 10 billion queries per day from over 20 million active players in over 100 games.",
+            "task3": "Documented new features and improvements."
+        },
         "genetec": {
             "name": "Genetec",
             "header": "Software developer (internship) | Sherbrooke (QC) | May 2021 - August 2021",
-            "task1": "Developed with C#, .NET and WPF a plugin for a building surveillance software allowing to use smart locks and keys, to configure their access controls and monitor their activities.",
-            "task2": "Wrote unit tests with NUnit and SpecFlow frameworks.",
-            "task3": "Analyzed problems as a team in an Agile Kanban environment."
+            "task1": "Developed with C#, .NET and WPF a plugin for a building surveillance software allowing to use smart locks and keys, to configure their access controls and monitor their activities in an Agile Kanban environment.",
+            "task2": "Wrote unit tests with NUnit and SpecFlow frameworks."
         },
         "novom": {
             "name": "Novom Interactive",
             "header": "Full Stack Developer (internship) | Magog (QC) | September 2020 - December 2020",
-            "task1": "Implemented with ReactJS and NodeJS new functionalities in a videoconferencing web app including a menu for configuring input and output devices to allow thousands of users to prepare before their conference.",
-            "task2": "Wrote unit tests with Jest framework.",
-            "task3": "Planned sprints in an Agile Scrum environment."
+            "task1": "Implemented with ReactJS and NodeJS new functionalities in a videoconferencing web app including a menu for configuring input and output devices to allow thousands of users to prepare before their conference in an Agile Scrum environment.",
+            "task2": "Wrote unit tests with Jest framework."
         },
         "nba": {
             "name": "NB Automation",
-            "header": "Full Stack Developer | Granby (QC) | May 2019 - August 2019",
+            "header": "Full Stack Developer (internship) | Granby (QC) | May 2019 - August 2019",
             "task1": "Added and updated forms in a CRUD software using C#, .NET and WPF used to perform quality control on manufactured products.",
-            "task2": "Improved the design of an SQL database.",
-            "task3": "Updated and fixed bugs to improve performance and stability."
+            "task2": "Improved the design of an SQL database."
         }
     },
     "projects": {
         "my-projects": "MY PROJECTS",
+        "elemensions-description": "In ElemEnsions, you play as Guerna the adventurous goblin in search of a new treasure. In order to overcome the many obstacles of the ruins, you have at your disposal the power of the Portalite pendant, an artifact found during a past adventure, which allows you to change from one elemental dimension to another. Each element has its unique properties: Fire, Air, Water, Earth.",
+        "back-to-the-party-description": "Back to the Party is a 2 player cooperative experience. A player is in the past and must manage a party at his apartment. He must satisfy the needs of his guests in order to become their friend. Satisfying these needs provides the answers for an exam happening in the future. The other player is in the future and must answer the exam questions with the answers obtained. He must also provide resources to the past player via a quantum portal.",
         "purrfect-escape-description": "In Purrfect Escape, we take on the role of a cat who is eager to go outside in order to satisfy his hunting instincts. However, this one is a prisoner of his house and his humans will not let him out. Can he find a way to escape? Made with Unity.",
         "worfo-description": "World of Rune Fantasy Online is an open world MMORPG game. Go on an adventure alone or with friends. Quest, fight, explore, improve your skills. Play your way and shape your destiny! Made with Unity, C#, MySQL and Ink.",
         "centre-description": "The Centre d'Entraide La Boussole is a help center for drug addicts, battered men and couples. Made with PHP, Laravel and MySQL.",

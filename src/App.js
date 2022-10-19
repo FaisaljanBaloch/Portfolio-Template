@@ -53,7 +53,7 @@ function App() {
   const yourName = 'Christopher Robidas';
   const yourEmail = 'christopher.robidas@outlook.com';
 
-  const [activeWorkplace, setActiveWorkplace] = useState('genetec');
+  const [activeWorkplace, setActiveWorkplace] = useState('gameloft');
 
   const changeWorkplace = (workplace) => {
     setActiveWorkplace(workplace);
@@ -139,9 +139,6 @@ function App() {
             </SectionTitle>
             <SectionText>
               {t('about.my-name-is')} <b>{yourName}</b>{t('about.my-description')}
-              <br />
-              <br />
-              {t('about.my-interests')}
             </SectionText>
           </LeftAboutSectionPart>
           <RightAboutSectionPart>
@@ -153,25 +150,13 @@ function App() {
             </Skill>
             <Skill>
               <SkillName>
+                C++
+              </SkillName>
+              <CustomProgressBar now={70} label="70%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
                 .NET (4.7.2/4.8)
-              </SkillName>
-              <CustomProgressBar now={90} label="90%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                HTML/CSS
-              </SkillName>
-              <CustomProgressBar now={90} label="90%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                JavaScript
-              </SkillName>
-              <CustomProgressBar now={80} label="80%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                React
               </SkillName>
               <CustomProgressBar now={80} label="80%" variant="info"/>
             </Skill>
@@ -185,6 +170,42 @@ function App() {
               <SkillName>
                 Unreal Engine
               </SkillName>
+              <CustomProgressBar now={70} label="70%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
+                Photoshop
+              </SkillName>
+              <CustomProgressBar now={50} label="50%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
+                Blender
+              </SkillName>
+              <CustomProgressBar now={50} label="50%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
+                Python
+              </SkillName>
+              <CustomProgressBar now={70} label="70%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
+                HTML/CSS
+              </SkillName>
+              <CustomProgressBar now={80} label="80%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
+                JavaScript
+              </SkillName>
+              <CustomProgressBar now={70} label="70%" variant="info"/>
+            </Skill>
+            <Skill>
+              <SkillName>
+                React
+              </SkillName>
               <CustomProgressBar now={60} label="60%" variant="info"/>
             </Skill>
           </RightAboutSectionPart>
@@ -196,6 +217,9 @@ function App() {
         </SectionTitle>
         <PlacesIWorkedContainer data-aos="fade-up">
           <WorkPlaceButtons>
+            <WorkPlaceButton active={activeWorkplace === 'gameloft'} onClick={() => changeWorkplace('gameloft')}>
+              {t('places-worked.gameloft.name')}
+            </WorkPlaceButton>
             <WorkPlaceButton active={activeWorkplace === 'genetec'} onClick={() => changeWorkplace('genetec')}>
               {t('places-worked.genetec.name')}
             </WorkPlaceButton>
@@ -222,6 +246,24 @@ function App() {
           {t('projects.my-projects')}
         </SectionTitle>
         <Projects data-aos="fade-up">
+          <Project>
+            <ProjectTitle>
+              Elemensions
+            </ProjectTitle>
+            <ProjectDescription>
+              {t('projects.elemensions-description')}
+            </ProjectDescription>
+            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/Ay9BNReulN8" allow="fullscreen;"/>
+          </Project>
+          <Project>
+            <ProjectTitle>
+              Back to the Party
+            </ProjectTitle>
+            <ProjectDescription>
+              {t('projects.back-to-the-party-description')}
+            </ProjectDescription>
+            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/ZI-1IKNtqzc" allow="fullscreen;"/>
+          </Project>
           <Project>
             <ProjectTitle>
               Purrfect Escape
