@@ -48,6 +48,7 @@
         "purrfect-escape-description": "Dans Purrfect Escape, nous jouons le rôle d'un chat désireux de sortir pour satisfaire ses instincts de chasseur. Cependant, celui-ci est prisonnier de sa maison et ses humains ne le laissent pas sortir. Pourra-t-il trouver moyen de s'échapper? Fait avec Unity et C#.",
         "worfo-description": "World of Rune Fantasy Online est un jeu MMORPG en monde ouvert. Partez à l'aventure seul ou entre amis. Recherchez, combattez, explorez, améliorez vos compétences. Jouez à votre façon et façonnez votre destin! Fait avec Unity, C#, MySQL et Ink.",
         "centre-description": "Le Centre d'Entraide La Boussole est un centre d'aide aux toxicomanes, hommes battus et couples. Fait avec PHP, Laravel et MySQL.",
-        "this-project": "Et enfin, ce site est un projet que j'ai moi-même fait avec React."
+        "this-project": "Et enfin, ce site est un projet que j'ai moi-même fait avec React.",
+        "download": "Télécharger"
     }
 }
