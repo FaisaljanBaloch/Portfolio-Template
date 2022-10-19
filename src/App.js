@@ -247,7 +247,7 @@ function App() {
         </SectionTitle>
         <Projects data-aos="fade-up">
           <Project>
-            <ProjectTitle>
+            <ProjectTitle id="elemensions">
               Elemensions
             </ProjectTitle>
             <ProjectDescription>
@@ -256,7 +256,7 @@ function App() {
             <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/Ay9BNReulN8" allow="fullscreen;"/>
           </Project>
           <Project>
-            <ProjectTitle>
+            <ProjectTitle id="back-to-the-party">
               Back to the Party
             </ProjectTitle>
             <ProjectDescription>
@@ -265,7 +265,7 @@ function App() {
             <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/ZI-1IKNtqzc" allow="fullscreen;"/>
           </Project>
           <Project>
-            <ProjectTitle>
+            <ProjectTitle id="purrfect-escape">
               Purrfect Escape
             </ProjectTitle>
             <ProjectDescription>
@@ -274,7 +274,7 @@ function App() {
             <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/Mt-ugo6KlJM" allow="fullscreen;"/>
           </Project>
           <Project>
-            <ProjectTitle>
+            <ProjectTitle id="worfo">
               World of Rune Fantasy Online
             </ProjectTitle>
             <ProjectDescription>
@@ -283,7 +283,7 @@ function App() {
             <ProjectVideo height={(width * 9) / 16} src="https://www.youtube.com/embed/OhAAXRkXCNk" allow="fullscreen;"/>
           </Project>
           <Project>
-            <ProjectTitle>
+            <ProjectTitle id="centre">
               Centre d'Entraide La Boussole
             </ProjectTitle>
             <ProjectDescription>
