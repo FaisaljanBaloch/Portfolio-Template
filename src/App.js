@@ -250,6 +250,20 @@ function App() {
         <Projects data-aos="fade-up">
           <Project>
             <ProjectHeader>
+              <ProjectTitle id="sauve-chouris">
+                Sauve-Chouris
+              </ProjectTitle>
+              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/Sauve-Chouris.zip')}>
+                {t('projects.download')}
+              </ProjectDownloadButton>
+            </ProjectHeader>
+            <ProjectDescription>
+              {t('projects.sauve-chouris-description')}
+            </ProjectDescription>
+            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/UGlAQYLwofU" allow="fullscreen;"/>
+          </Project>
+          <Project>
+            <ProjectHeader>
               <ProjectTitle id="elemensions">
                 Elemensions
               </ProjectTitle>
@@ -300,6 +314,17 @@ function App() {
             <ProjectVideo height={(width * 9) / 16} src="https://www.youtube.com/embed/OhAAXRkXCNk" allow="fullscreen;"/>
           </Project>
           <Project>
+            <ProjectHeader>
+              <ProjectTitle id="chalet">
+                Level Design: Chalet
+              </ProjectTitle>
+            </ProjectHeader>
+            <ProjectDescription>
+              {t('projects.chalet-description')}
+            </ProjectDescription>
+            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/71wmsMhOk_8" allow="fullscreen;"/>
+          </Project>
+          <Project>
             <ProjectTitle id="centre">
               Centre d'Entraide La Boussole
             </ProjectTitle>
@@ -319,7 +344,7 @@ function App() {
         <ContactButton onClick={() => window.location = "mailto:" + yourEmail} data-aos="fade-up">
           {t('contact.contact-me')}
         </ContactButton>
-        <ResumeButton type="submit" onClick={() => window.open(i18n.language === 'fr' ? 'Christopher_Robidas_Resume_2022_fr.pdf' : 'Christopher_Robidas_Resume_2022_en.pdf')} data-aos="fade-up">
+        <ResumeButton type="submit" onClick={() => window.open(i18n.language === 'fr' ? 'Christopher_Robidas_Resume_2023_fr.pdf' : 'Christopher_Robidas_Resume_2023_en.pdf')} data-aos="fade-up">
           {t('contact.see-resume')}
         </ResumeButton>
       </ContactSection>
@@ -333,7 +358,7 @@ function App() {
           </a>
         </Socials>
         <FooterText>
-          {yourName} <FooterLastUpdated>©2022</FooterLastUpdated>
+          {yourName} <FooterLastUpdated>©2023</FooterLastUpdated>
         </FooterText>
       </Footer>
     </Portfolio>

@@ -2,7 +2,7 @@
     "about": {
         "whoami": "WHOAMI",
         "my-name-is": "Mon nom est",
-        "my-description": ", Je suis un développeur de jeux vidéo avec 2 ans d'expérience, j'ai gradué en informatique à l'Université de Sherbrooke en avril 2022. Je joue et développe des jeux sur mon temps libre. Je suis à la recherche de nouveaux défis dans l'industrie du jeu vidéo."
+        "my-description": ", Je suis un développeur de jeux vidéo avec 3 ans d'expérience, j'ai gradué en informatique à l'Université de Sherbrooke en avril 2022. Je joue et développe des jeux sur mon temps libre. Je suis à la recherche de nouveaux défis en programmation gameplay dans l'industrie du jeu vidéo."
     },
     "contact": {
         "contact-me": "ME CONTACTER",
@@ -20,7 +20,8 @@
             "header": "Développeur Back End | Montréal (QC) | Mai 2022 - Présent",
             "task1": "Développer, maintenir et déployer des microservices de jeux faits en Python utilisés pour l'authentification, les interactions avec les réseaux sociaux, la messagerie, les lobbies, etc… dans un environnement Agile Scrum.",
             "task2": "Optimiser et garantir une haute disponibilité et résilience aux défaillances, car ces microservices doivent gérer 10 milliards de requêtes par jour provenant de plus de 20 millions de joueurs actifs dans plus de 100 jeux.",
-            "task3": "Documenter les nouvelles fonctionnalités et améliorations."
+            "task3": "Rédiger des tests d'intégration en C# et .NET avec le framework NUnit.",
+            "task4": "Documenter les nouvelles fonctionnalités et améliorations."
         },
         "genetec": {
             "name": "Genetec",
@@ -43,10 +44,12 @@
     },
     "projects": {
         "my-projects": "MES PROJETS",
-        "elemensions-description": "Dans ElemEnsions, vous incarnez Guerna la gobeline aventurière à la recherche d'un nouveau trésor. Afin de surmonter les nombreux obstacles des ruines, vous avez à votre disposition le pouvoir du pendentif de Portalite, artéfact trouvé lors d'une aventure passée, qui permet de changer d'une dimension élémentaire à une autre. Chaque élément a ses propriétés uniques:  Feu, Air, Eau, Terre.",
-        "back-to-the-party-description": "Back to the Party est une expérience coopérative à 2 joueurs. Un joueur se trouve dans le passé et doit gérer un party à son appartement. Il doit satisfaire les besoins de ses invités afin de devenir leur ami. En satisfaisant ces besoins, on obtient les réponses pour l’examen futur. L'autre joueur se trouve dans le futur et doit répondre aux questions d'examen avec les réponses obtenues. Il doit aussi fournir des ressources au joueur du passé via un portail quantique.",
+        "sauve-chouris-description": "Sauve Chouris, ton ami qui est coincé dans le manoir de Mme Fauché! Vous allez devoir vous repérer avec votre pouvoir d'écholocalisation. Fait avec Unity, C# et Wwise.",
+        "elemensions-description": "Dans ElemEnsions, vous incarnez Guerna la gobeline aventurière à la recherche d'un nouveau trésor. Afin de surmonter les nombreux obstacles des ruines, vous avez à votre disposition le pouvoir du pendentif de Portalite, artéfact trouvé lors d'une aventure passée, qui permet de changer d'une dimension élémentaire à une autre. Chaque élément a ses propriétés uniques:  Feu, Air, Eau, Terre. Fait avec Unity et C#.",
+        "back-to-the-party-description": "Back to the Party est une expérience coopérative à 2 joueurs. Un joueur se trouve dans le passé et doit gérer un party à son appartement. Il doit satisfaire les besoins de ses invités afin de devenir leur ami. En satisfaisant ces besoins, on obtient les réponses pour l’examen futur. L'autre joueur se trouve dans le futur et doit répondre aux questions d'examen avec les réponses obtenues. Il doit aussi fournir des ressources au joueur du passé via un portail quantique. Fait avec Unity, C#, Blender et Fmod.",
         "purrfect-escape-description": "Dans Purrfect Escape, nous jouons le rôle d'un chat désireux de sortir pour satisfaire ses instincts de chasseur. Cependant, celui-ci est prisonnier de sa maison et ses humains ne le laissent pas sortir. Pourra-t-il trouver moyen de s'échapper? Fait avec Unity et C#.",
         "worfo-description": "World of Rune Fantasy Online est un jeu MMORPG en monde ouvert. Partez à l'aventure seul ou entre amis. Recherchez, combattez, explorez, améliorez vos compétences. Jouez à votre façon et façonnez votre destin! Fait avec Unity, C#, MySQL et Ink.",
+        "chalet-description": "Level design d'un chalet au milieu d'une forêt. Fait avec Unity, C# et ProBuilder.",
         "centre-description": "Le Centre d'Entraide La Boussole est un centre d'aide aux toxicomanes, hommes battus et couples. Fait avec PHP, Laravel et MySQL.",
         "this-project": "Et enfin, ce site est un projet que j'ai moi-même fait avec React.",
         "download": "Télécharger"
