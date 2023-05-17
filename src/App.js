@@ -29,7 +29,6 @@ import {
   ProjectDescription,
   ProjectDownloadButton,
   ProjectHeader,
-  ProjectImage,
   Projects,
   ProjectsSection,
   ProjectTitle,

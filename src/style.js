@@ -243,10 +243,6 @@ export const ProjectHeader = styled.div`
     width: 100%;
 `;
 
-export const ProjectImage = styled.img`
-    width: 100%;
-`;
-
 export const Projects = styled.div`
     align-content: center;
     display: flex;
