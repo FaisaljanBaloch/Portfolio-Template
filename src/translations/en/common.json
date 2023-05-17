@@ -44,13 +44,12 @@
     },
     "projects": {
         "my-projects": "MY PROJECTS",
+        "stepping-stones-description": "It's december 31 1999 when the year 2000's bug hits systems all over the world and history is erased. You must run through the ages, bring back our history and rediscover inventions of humanity. Made with Unreal Engine 5, C++, Blueprints and Wwise.",
         "sauve-chouris-description": "Save Chouris, your friend who is stuck in Madame Fauché's mansion! You will have to locate yourself with your echolocation power. Made with Unity, C# and Wwise.",
         "elemensions-description": "In ElemEnsions, you play as Guerna the adventurous goblin in search of a new treasure. In order to overcome the many obstacles of the ruins, you have at your disposal the power of the Portalite pendant, an artifact found during a past adventure, which allows you to change from one elemental dimension to another. Each element has its unique properties: Fire, Air, Water, Earth. Made with Unity and C#.",
         "back-to-the-party-description": "Back to the Party is a 2 player cooperative experience. A player is in the past and must manage a party at his apartment. He must satisfy the needs of his guests in order to become their friend. Satisfying these needs provides the answers for an exam happening in the future. The other player is in the future and must answer the exam questions with the answers obtained. He must also provide resources to the past player via a quantum portal. Made with Unity, C#, Blender and Fmod.",
         "purrfect-escape-description": "In Purrfect Escape, we take on the role of a cat who is eager to go outside in order to satisfy his hunting instincts. However, this one is a prisoner of his house and his humans will not let him out. Can he find a way to escape? Made with Unity and C#.",
         "worfo-description": "World of Rune Fantasy Online is an open world MMORPG game. Go on an adventure alone or with friends. Quest, fight, explore, improve your skills. Play your way and shape your destiny! Made with Unity, C#, MySQL and Ink.",
-        "chalet-description": "Level design of a chalet in the middle of a forest. Made with Unity, C# and ProBuilder.",
-        "centre-description": "The Centre d'Entraide La Boussole is a help center for drug addicts, battered men and couples. Made with PHP, Laravel and MySQL.",
         "this-project": "And finally, this website is a project I made myself with React.",
         "download": "Download"
     }

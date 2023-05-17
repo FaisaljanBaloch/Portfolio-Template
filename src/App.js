@@ -250,6 +250,20 @@ function App() {
         <Projects data-aos="fade-up">
           <Project>
             <ProjectHeader>
+              <ProjectTitle id="stepping-stones">
+                Stepping Stones
+              </ProjectTitle>
+              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/Stepping_Stones.zip')}>
+                {t('projects.download')}
+              </ProjectDownloadButton>
+            </ProjectHeader>
+            <ProjectDescription>
+              {t('projects.stepping-stones-description')}
+            </ProjectDescription>
+            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/xL3Mbh1s7ZE" allow="fullscreen;"/>
+          </Project>
+          <Project>
+            <ProjectHeader>
               <ProjectTitle id="sauve-chouris">
                 Sauve-Chouris
               </ProjectTitle>
@@ -312,28 +326,6 @@ function App() {
               {t('projects.worfo-description')}
             </ProjectDescription>
             <ProjectVideo height={(width * 9) / 16} src="https://www.youtube.com/embed/OhAAXRkXCNk" allow="fullscreen;"/>
-          </Project>
-          <Project>
-            <ProjectHeader>
-              <ProjectTitle id="chalet">
-                Level Design: Chalet
-              </ProjectTitle>
-            </ProjectHeader>
-            <ProjectDescription>
-              {t('projects.chalet-description')}
-            </ProjectDescription>
-            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/71wmsMhOk_8" allow="fullscreen;"/>
-          </Project>
-          <Project>
-            <ProjectTitle id="centre">
-              Centre d'Entraide La Boussole
-            </ProjectTitle>
-            <ProjectDescription>
-              {t('projects.centre-description')}
-              <br/>
-              <a href="https://www.centrelaboussole.ca/">https://www.centrelaboussole.ca/</a>
-            </ProjectDescription>
-            <ProjectImage src="Centre_La_Boussole.png" alt="Centre la Boussole"/>
           </Project>
         </Projects>
         <ThisProjectText data-aos="fade-up">
