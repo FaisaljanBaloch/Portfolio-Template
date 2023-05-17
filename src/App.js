@@ -252,7 +252,7 @@ function App() {
               <ProjectTitle id="stepping-stones">
                 Stepping Stones
               </ProjectTitle>
-              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/Stepping_Stones.zip')}>
+              <ProjectDownloadButton type="submit" onClick={() => window.location.href='https://www.dropbox.com/s/qlxhgx4sy02451t/Stepping_Stones.zip?dl=1'}>
                 {t('projects.download')}
               </ProjectDownloadButton>
             </ProjectHeader>
@@ -266,7 +266,7 @@ function App() {
               <ProjectTitle id="sauve-chouris">
                 Sauve-Chouris
               </ProjectTitle>
-              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/Sauve-Chouris.zip')}>
+              <ProjectDownloadButton type="submit" onClick={() => window.location.href='https://www.dropbox.com/s/fdym94xuhral5ss/Sauve-Chouris.zip?dl=1'}>
                 {t('projects.download')}
               </ProjectDownloadButton>
             </ProjectHeader>
@@ -280,7 +280,7 @@ function App() {
               <ProjectTitle id="elemensions">
                 Elemensions
               </ProjectTitle>
-              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/ElemEnsions.zip')}>
+              <ProjectDownloadButton type="submit" onClick={() => window.location.href='https://www.dropbox.com/s/gkzuxq7k7l6dmsf/ElemEnsions.zip?dl=1'}>
                 {t('projects.download')}
               </ProjectDownloadButton>
             </ProjectHeader>
@@ -294,7 +294,7 @@ function App() {
               <ProjectTitle id="back-to-the-party">
                 Back to the Party
               </ProjectTitle>
-              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/BackToTheParty.zip')}>
+              <ProjectDownloadButton type="submit" onClick={() => window.location.href='https://www.dropbox.com/s/tx317otov46lz7y/BackToTheParty.zip?dl=1'}>
                 {t('projects.download')}
               </ProjectDownloadButton>
             </ProjectHeader>
@@ -308,7 +308,7 @@ function App() {
               <ProjectTitle id="purrfect-escape">
                 Purrfect Escape
               </ProjectTitle>
-              <ProjectDownloadButton type="submit" onClick={() => window.open('projects/PurrfectEscape.zip')}>
+              <ProjectDownloadButton type="submit" onClick={() => window.location.href='https://www.dropbox.com/s/f3b8uvh5tu665v5/PurrfectEscape.zip?dl=1'}>
                 {t('projects.download')}
               </ProjectDownloadButton>
             </ProjectHeader>
