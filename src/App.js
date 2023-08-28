@@ -259,7 +259,7 @@ function App() {
             <ProjectDescription>
               {t('projects.stepping-stones-description')}
             </ProjectDescription>
-            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/xL3Mbh1s7ZE" allow="fullscreen;"/>
+            <ProjectVideo ref={componentRef} height={(width * 9) / 16} src="https://www.youtube.com/embed/V6GiGXZBk74" allow="fullscreen;"/>
           </Project>
           <Project>
             <ProjectHeader>
