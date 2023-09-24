@@ -2,11 +2,15 @@
     "about": {
         "whoami": "WHOAMI",
         "my-name-is": "My name is",
-        "my-description": ", I'm a game developer with 3 years of experience, I graduated in Computer Science at the Université de Sherbrooke in April 2022. I play and develop games on my free time. I'm looking for new challenges in the game industry."
+        "my-description": ", I'm a gamer since I was old enough to hold a controller and a passionate video game developer, I am known for my great ability to adapt and learn. I currently work at Gameloft Montreal as a Back End Developer. I dream of getting a position in gameplay or general programming.",
+        "skills": "SKILLS",
+        "languages": "Languages:",
+        "technologies": "Technologies:",
+        "softwares": "Softwares:"
     },
     "contact": {
-        "contact-me": "CONTACT ME",
-        "see-resume": "SEE RESUME"
+        "contact-me": "CONTACT",
+        "see-resume": "RESUME"
     },
     "home": {
         "hello-world": "Hello World!",
@@ -18,22 +22,15 @@
         "gameloft": {
             "name": "Gameloft",
             "header": "Back End Developer | Montreal (QC) | May 2022 - Present",
-            "task1": "Developed, maintained, and deployed Python game microservices that are used for authentication, interactions with social networks, messaging, lobbies, etc… in an Agile Scrum environment.",
-            "task2": "Optimized and ensured high availability and resilience to failure as these microservices need to handle 10 billion queries per day from over 20 million active players in over 100 games.",
-            "task3": "Wrote integration tests in C# and .NET with the NUnit framework.",
-            "task4": "Documented new features and improvements."
+            "task1": "Develop microservices made in Python used by most of the company's games for authentication, players progression, matchmaking, and others in an Agile Scrum environment.",
+            "task2": "Optimize and ensure high availability of the microservices using AWS, Docker and Kubernetes as they need to handle more than 10 billion queries per day.",
+            "task3": "Actively participate in operational incident responses, helping to troubleshoot and resolve any issues in a timely manner."
         },
         "genetec": {
             "name": "Genetec",
             "header": "Software developer (internship) | Sherbrooke (QC) | May 2021 - August 2021",
-            "task1": "Developed with C#, .NET and WPF a plugin for a building surveillance software allowing to use smart locks and keys, to configure their access controls and monitor their activities in an Agile Kanban environment.",
+            "task1": "Write with C# and .NET a plugin allowing to use smart padlocks in a building surveillance software and to manage access controls in an Agile Kanban environment.",
             "task2": "Wrote unit tests with NUnit and SpecFlow frameworks."
-        },
-        "novom": {
-            "name": "Novom Interactive",
-            "header": "Full Stack Developer (internship) | Magog (QC) | September 2020 - December 2020",
-            "task1": "Implemented with ReactJS and NodeJS new functionalities in a videoconferencing web app including a menu for configuring input and output devices to allow thousands of users to prepare before their conference in an Agile Scrum environment.",
-            "task2": "Wrote unit tests with Jest framework."
         },
         "nba": {
             "name": "NB Automation",
@@ -50,7 +47,6 @@
         "back-to-the-party-description": "Back to the Party is a 2 player cooperative experience. A player is in the past and must manage a party at his apartment. He must satisfy the needs of his guests in order to become their friend. Satisfying these needs provides the answers for an exam happening in the future. The other player is in the future and must answer the exam questions with the answers obtained. He must also provide resources to the past player via a quantum portal. Made with Unity, C#, Blender and Fmod.",
         "purrfect-escape-description": "In Purrfect Escape, we take on the role of a cat who is eager to go outside in order to satisfy his hunting instincts. However, this one is a prisoner of his house and his humans will not let him out. Can he find a way to escape? Made with Unity and C#.",
         "worfo-description": "World of Rune Fantasy Online is an open world MMORPG game. Go on an adventure alone or with friends. Quest, fight, explore, improve your skills. Play your way and shape your destiny! Made with Unity, C#, MySQL and Ink.",
-        "this-project": "And finally, this website is a project I made myself with React.",
         "download": "Download"
     }
 }

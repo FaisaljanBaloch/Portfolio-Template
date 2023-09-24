@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 
 export const AboutSection = styled.section`
     align-items: center;
     background-color: #FFFFFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 50px 0px;
 `;
@@ -19,41 +19,24 @@ export const ChangeLanguageButtons = styled.div`
 `;
 
 export const ContactButton = styled.button`
-    background: transparent;
-    border: 2px solid #91FE3C;
-    color: #91FE3C;
+    background-color: #E31B6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000000;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
-    margin: 5px;
-    padding: 10px 20px;
-    transition: all 0.5s linear;
-    width: 200px;
-
+    left: 10px;
+    padding: 5px 0px;
+    position: fixed;
+    top: 10px;
+    transition: all 0.1s linear;
+    width: 110px;
+    z-index: 1;
+    
     &:hover {
-        background: #91FE3C;
-        color: #0D0D0D;
+        background: #720D37;
         cursor: pointer;
-    }
-`;
-
-export const ContactSection = styled.section`
-    align-items: center;
-    background-color: #1D1D1D;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px 0px;
-`;
-
-export const CustomProgressBar = styled(ProgressBar)`
-    border-radius: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    height: 40px;
-    width: 400px;
-
-    @media (max-width: 670px) {
-        width: 100%;
     }
 `;
 
@@ -117,6 +100,14 @@ export const GitHubLogo = styled.img`
     }
 `;
 
+export const Header = styled.div`
+    background-color: #0D0D0D;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+`;
+
 export const HomeSection = styled.section`
     align-items: center;
     background-color: #1D1D1D;
@@ -149,7 +140,7 @@ export const LeftAboutSectionPart = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 600px;
+    width: 650px;
 `;
 
 export const LinkedinLogo = styled.img`
@@ -219,6 +210,7 @@ export const Project = styled.div`
 export const ProjectDescription = styled.p`
     color: #626262;
     font-size: 20px;
+    white-space: pre-line;
 `;
 
 export const ProjectDownloadButton = styled.button`
@@ -270,19 +262,23 @@ export const ProjectVideo = styled.iframe`
 `;
 
 export const ResumeButton = styled.button`
-    background: transparent;
-    border: 2px solid #91FE3C;
-    color: #91FE3C;
+    background-color: #E31B6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000000;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
-    margin: 5px;
-    padding: 10px 20px;
-    transition: all 0.5s linear;
-    width: 200px;
+    left: 130px;
+    padding: 5px 0px;
+    position: fixed;
+    top: 10px;
+    transition: all 0.1s linear;
+    width: 110px;
+    z-index: 1;
 
     &:hover {
-        background: #91FE3C;
-        color: #0D0D0D;
+        background: #720D37;
         cursor: pointer;
     }
 `;
@@ -293,7 +289,7 @@ export const RightAboutSectionPart = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: 20px;
-    width: 600px;
+    width: 650px;
 `;
 
 export const SectionText = styled.p`
@@ -309,23 +305,6 @@ export const SectionTitle = styled.h1`
     margin: 20px;
 `;
 
-export const Skill = styled.div`
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0px;
-`;
-
-export const SkillName = styled.div`
-    align-items: center;
-    background-color: #01A1A7;
-    color: white;
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
-    min-width: 180px;
-`;
-
 export const Socials = styled.div`
     margin-bottom: 30px;
 `;
@@ -337,13 +316,6 @@ export const SplittedAbout = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-`;
-
-export const ThisProjectText = styled.p`
-    color: #626262;
-    font-size: 20px;
-    font-weight: bold;
-    margin 20px;
 `;
 
 export const WorkPlaceButton = styled.button`

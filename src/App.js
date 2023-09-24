@@ -7,14 +7,13 @@ import {
   AboutSection,
   ChangeLanguageButtons,
   ContactButton,
-  ContactSection,
-  CustomProgressBar,
   EnglishButton,
   Footer,
   FooterLastUpdated,
   FooterText,
   FrenchButton,
   GitHubLogo,
+  Header,
   HomeSection, 
   HomeText,
   LeftAboutSectionPart,
@@ -38,10 +37,7 @@ import {
   SectionText,
   SectionTitle,
   Socials,
-  Skill,
-  SkillName,
   SplittedAbout,
-  ThisProjectText,
   WorkPlaceButton,
   WorkPlaceButtons,
   WorkPlaceHeader,
@@ -112,14 +108,22 @@ function App() {
 
   return (
     <Portfolio>
-      <ChangeLanguageButtons>
-        <FrenchButton active={i18n.language === 'fr'} onClick={() => i18n.changeLanguage('fr')}>
-          FR
-        </FrenchButton>
-        <EnglishButton active={i18n.language === 'en'} onClick={() => i18n.changeLanguage('en')}>
-          EN
-        </EnglishButton>
-      </ChangeLanguageButtons>
+      <Header>
+        <ContactButton onClick={() => window.location = "mailto:" + yourEmail}>
+            {t('contact.contact-me')}
+        </ContactButton>
+        <ResumeButton type="submit" onClick={() => window.open(i18n.language === 'fr' ? 'Christopher_Robidas_CV_2023.pdf' : 'Christopher_Robidas_Resume_2023.pdf')}>
+            {t('contact.see-resume')}
+        </ResumeButton>
+        <ChangeLanguageButtons>
+          <FrenchButton active={i18n.language === 'fr'} onClick={() => i18n.changeLanguage('fr')}>
+            FR
+          </FrenchButton>
+          <EnglishButton active={i18n.language === 'en'} onClick={() => i18n.changeLanguage('en')}>
+            EN
+          </EnglishButton>
+        </ChangeLanguageButtons>
+      </Header>
       <HomeSection>
         <HomeText>
           {t('home.hello-world')}
@@ -130,11 +134,11 @@ function App() {
         </HomeText>
       </HomeSection>
       <AboutSection>
+        <ProfilePictureContainer>
+          <ProfilePicture src='profile_square.png' alt='profile picture'/>
+        </ProfilePictureContainer>
         <SplittedAbout data-aos="fade-up">
           <LeftAboutSectionPart>
-            <ProfilePictureContainer>
-              <ProfilePicture src='profile_square.png' alt='profile picture'/>
-            </ProfilePictureContainer>
             <SectionTitle>
               {t('about.whoami')}
             </SectionTitle>
@@ -143,72 +147,16 @@ function App() {
             </SectionText>
           </LeftAboutSectionPart>
           <RightAboutSectionPart>
-            <Skill>
-              <SkillName>
-                C#
-              </SkillName>
-              <CustomProgressBar now={90} label="90%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                C++
-              </SkillName>
-              <CustomProgressBar now={70} label="70%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                .NET (4.7.2/4.8)
-              </SkillName>
-              <CustomProgressBar now={80} label="80%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                Unity
-              </SkillName>
-              <CustomProgressBar now={80} label="80%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                Unreal Engine
-              </SkillName>
-              <CustomProgressBar now={70} label="70%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                Photoshop
-              </SkillName>
-              <CustomProgressBar now={50} label="50%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                Blender
-              </SkillName>
-              <CustomProgressBar now={50} label="50%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                Python
-              </SkillName>
-              <CustomProgressBar now={70} label="70%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                HTML/CSS
-              </SkillName>
-              <CustomProgressBar now={80} label="80%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                JavaScript
-              </SkillName>
-              <CustomProgressBar now={70} label="70%" variant="info"/>
-            </Skill>
-            <Skill>
-              <SkillName>
-                React
-              </SkillName>
-              <CustomProgressBar now={60} label="60%" variant="info"/>
-            </Skill>
+            <SectionTitle>
+              {t('about.skills')}
+            </SectionTitle>
+            <SectionText>
+              <b>{t('about.languages')}</b> C#, C++, Python, SQL, Bash
+              <br/>
+              <b>{t('about.technologies')}</b> .NET, AWS, Docker, Kubernetes, Git, GitLab CI/CD
+              <br/>
+              <b>{t('about.softwares')}</b> Unity, Unreal Engine, MySQL, Couchbase, Jira, Confluence, Wwise, Blender
+            </SectionText>
           </RightAboutSectionPart>
         </SplittedAbout>
       </AboutSection>
@@ -223,9 +171,6 @@ function App() {
             </WorkPlaceButton>
             <WorkPlaceButton active={activeWorkplace === 'genetec'} onClick={() => changeWorkplace('genetec')}>
               {t('places-worked.genetec.name')}
-            </WorkPlaceButton>
-            <WorkPlaceButton active={activeWorkplace === 'novom'} onClick={() => changeWorkplace('novom')}>
-              {t('places-worked.novom.name')}
             </WorkPlaceButton>
             <WorkPlaceButton active={activeWorkplace === 'nba'} onClick={() => changeWorkplace('nba')}>
               {t('places-worked.nba.name')}
@@ -327,18 +272,7 @@ function App() {
             <ProjectVideo height={(width * 9) / 16} src="https://www.youtube.com/embed/OhAAXRkXCNk" allow="fullscreen;"/>
           </Project>
         </Projects>
-        <ThisProjectText data-aos="fade-up">
-          {t('projects.this-project')}
-        </ThisProjectText>
       </ProjectsSection>
-      <ContactSection>
-        <ContactButton onClick={() => window.location = "mailto:" + yourEmail} data-aos="fade-up">
-          {t('contact.contact-me')}
-        </ContactButton>
-        <ResumeButton type="submit" onClick={() => window.open(i18n.language === 'fr' ? 'Christopher_Robidas_Resume_2023_fr.pdf' : 'Christopher_Robidas_Resume_2023_en.pdf')} data-aos="fade-up">
-          {t('contact.see-resume')}
-        </ResumeButton>
-      </ContactSection>
       <Footer>
         <Socials>
           <a href="https://www.linkedin.com/in/christopher-robidas-a661241a2/">

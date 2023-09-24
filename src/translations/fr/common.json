@@ -2,11 +2,15 @@
     "about": {
         "whoami": "WHOAMI",
         "my-name-is": "Mon nom est",
-        "my-description": ", Je suis un développeur de jeux vidéo avec 3 ans d'expérience, j'ai gradué en informatique à l'Université de Sherbrooke en avril 2022. Je joue et développe des jeux sur mon temps libre. Je suis à la recherche de nouveaux défis dans l'industrie du jeu vidéo."
+        "my-description": ", je suis un gamer depuis que je suis en âge de tenir une manette et développeur de jeux vidéo passionné, je suis reconnu pour ma grande capacité d'adaptation et d'apprentissage. Je travaille actuellement chez Gameloft Montréal en tant que développeur Back End. Je rêve d'obtenir un poste en programmation gameplay ou généraliste.",
+        "skills": "COMPÉTENCES",
+        "languages": "Langages:",
+        "technologies": "Technologies:",
+        "softwares": "Logiciels:"
     },
     "contact": {
-        "contact-me": "ME CONTACTER",
-        "see-resume": "VOIR CV"
+        "contact-me": "CONTACT",
+        "see-resume": "CV"
     },
     "home": {
         "hello-world": "Hello World!",
@@ -18,22 +22,15 @@
         "gameloft": {
             "name": "Gameloft",
             "header": "Développeur Back End | Montréal (QC) | Mai 2022 - Présent",
-            "task1": "Développer, maintenir et déployer des microservices de jeux faits en Python utilisés pour l'authentification, les interactions avec les réseaux sociaux, la messagerie, les lobbies, etc… dans un environnement Agile Scrum.",
-            "task2": "Optimiser et garantir une haute disponibilité et résilience aux défaillances, car ces microservices doivent gérer 10 milliards de requêtes par jour provenant de plus de 20 millions de joueurs actifs dans plus de 100 jeux.",
-            "task3": "Rédiger des tests d'intégration en C# et .NET avec le framework NUnit.",
-            "task4": "Documenter les nouvelles fonctionnalités et améliorations."
+            "task1": "Développer des microservices faits en Python utilisés par la majorité des jeux de la compagnie pour l'authentification, la progression des joueurs, le matchmaking et autres dans un environnement Agile Scrum.",
+            "task2": "Optimiser et garantir une haute disponibilité des microservices avec AWS, Docker et Kubernetes, car ceux-ci doivent gérer plus de 10 milliards de requêtes par jour.",
+            "task3": "Participer activement aux réponses aux incidents opérationnels, en aidant à dépanner et à résoudre tout problème en temps opportun."
         },
         "genetec": {
             "name": "Genetec",
             "header": "Développeur logiciel (stage) | Sherbrooke (QC) | Mai 2021 – Août 2021",
-            "task1": "Développer avec C#, .NET et WPF un plugin permettant d’utiliser dans un logiciel de surveillance de bâtiments des cadenas intelligents et d’y gérer des contrôles d’accès dans un environnement Agile Kanban.",
+            "task1": "Rédiger avec C# et .NET un plugin permettant d’utiliser dans un logiciel de surveillance de bâtiments des cadenas intelligents et d’y gérer des contrôles d’accès dans un environnement Agile Kanban.",
             "task2": "Écrire des tests unitaires avec les frameworks NUnit et SpecFlow."
-        },
-        "novom": {
-            "name": "Novom Interactive",
-            "header": "Développeur Full Stack (stage) | Magog (QC) | Septembre 2020 – Décembre 2020",
-            "task1": "Implanter avec React et NodeJS de nouvelles fonctionnalités dans une application web de vidéoconférence dans un environnement Agile Scrum dont un menu de configuration des périphériques d’entrée et de sortie.",
-            "task2": "Écrire des tests unitaires avec le framework Jest."
         },
         "nba": {
             "name": "NB Automation",
@@ -50,7 +47,6 @@
         "back-to-the-party-description": "Back to the Party est une expérience coopérative à 2 joueurs. Un joueur se trouve dans le passé et doit gérer un party à son appartement. Il doit satisfaire les besoins de ses invités afin de devenir leur ami. En satisfaisant ces besoins, on obtient les réponses pour l’examen futur. L'autre joueur se trouve dans le futur et doit répondre aux questions d'examen avec les réponses obtenues. Il doit aussi fournir des ressources au joueur du passé via un portail quantique. Fait avec Unity, C#, Blender et Fmod.",
         "purrfect-escape-description": "Dans Purrfect Escape, nous jouons le rôle d'un chat désireux de sortir pour satisfaire ses instincts de chasseur. Cependant, celui-ci est prisonnier de sa maison et ses humains ne le laissent pas sortir. Pourra-t-il trouver moyen de s'échapper? Fait avec Unity et C#.",
         "worfo-description": "World of Rune Fantasy Online est un jeu MMORPG en monde ouvert. Partez à l'aventure seul ou entre amis. Recherchez, combattez, explorez, améliorez vos compétences. Jouez à votre façon et façonnez votre destin! Fait avec Unity, C#, MySQL et Ink.",
-        "this-project": "Et enfin, ce site est un projet que j'ai moi-même fait avec React.",
         "download": "Télécharger"
     }
 }
